@@ -1,7 +1,94 @@
-Copyright (c) GitHub, Inc.
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2020KHODA — Diamond Tower Site | Shiraz</title>
+  <meta name="description" content="Landmark mixed-use site in Shiraz: 20,000 m² plot, 120 m frontage — Hotel, Residences, Retail. 2020KHODA Diamond Tower." />
+  <meta property="og:title" content="2020KHODA — Diamond Tower Site" />
+  <meta property="og:description" content="Rare large urban plot — Hotel • Residences • Retail — Iconic opportunity." />
+  <meta property="og:image" content="poster.jpg" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <style>
+    :root{
+      --bg:#0b0b0b; --gold:#d6b36a; --gold-2:#f0e0b2; --muted:#b59a5a; --text:#f6f6f6;
+      --max:1120px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:#0b0b0b; color:var(--text);
+      font:16px/1.7 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;
+    }
+    a{color:var(--gold-2); text-decoration:none}
+    a:hover{opacity:.9}
+    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
+    header{display:flex; align-items:center; justify-content:space-between; gap:16px}
+    .brand{font-weight:800; letter-spacing:.5px}
+    .badge{border:1px solid var(--muted); padding:6px 10px; border-radius:999px; font-size:.85rem; color:var(--gold)}
+    .hero{margin-top:24px; display:grid; gap:20px}
+    .hero h1{font-size:clamp(28px,6vw,56px); margin:0; color:var(--gold-2)}
+    .kicker{color:var(--gold); font-style:italic; margin:.25rem 0 1rem}
+    .poster{width:100%; max-height:640px; object-fit:cover; border-radius:20px; box-shadow:0 30px 80px rgba(214,179,106,.25)}
+    .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin:32px 0}
+    .card{border:1px solid rgba(214,179,106,.25); border-radius:18px; padding:18px; background:rgba(214,179,106,.06)}
+    .card h3{margin:.2rem 0 .4rem; color:var(--gold-2)}
+    .list{margin:0; padding:0 1rem}
+    footer{margin:48px 0 24px; color:var(--muted); font-size:.9rem}
+    .mono{font-family:ui-monospace,monospace}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">👑 2020KHODA</div>
+      <span class="badge">Diamond Tower • Shiraz</span>
+    </header>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    <section class="hero">
+      <div>
+        <h1>سایت برج الماس 2020KHODA</h1>
+        <p class="kicker">With 2020, buy a property 20… • First God, Last God</p>
+        <p>قطعه بزرگ شهری برای توسعه‌ی شاخص: هتل لوکس، رزدنس، و خرده‌فروشی. زمین ۲۰٬۰۰۰ مترمربع با بر ۱۲۰ متر در شیراز.</p>
+      </div>
+      <img class="poster" src="poster.jpg" alt="2020KHODA Diamond Tower Poster" />
+    </section>
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    <section id="details" class="cards">
+      <div class="card">
+        <h3>مشخصات زمین</h3>
+        <ul class="list">
+          <li>متراژ: ۲۰٬۰۰۰ مترمربع</li>
+          <li>بر خیابان: ۱۲۰ متر</li>
+          <li>موقعیت: شیراز، ایران</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>کاربری‌های پیشنهادی</h3>
+        <ul class="list">
+          <li>هتل پنج‌ستاره</li>
+          <li>رزدنس لوکس</li>
+          <li>خرده‌فروشی و لایف‌استایل</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>هایلایت‌ها</h3>
+        <ul class="list">
+          <li>لندمارک شهری با برندسازی 2020KHODA</li>
+          <li>قطعه نایاب در بافت شهری</li>
+          <li>فرصت آیکونیک برای سرمایه‌گذاران</li>
+        </ul>
+      </div>
+    </section>
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    <section id="contact" class="card">
+      <h3>تماس</h3>
+      <p>برای مشارکت، خرید یا JV:</p>
+      <p class="mono">info@2020khoda.com</p>
+    </section>
+
+    <footer>
+      <p>© 2025 2020KHODA. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
